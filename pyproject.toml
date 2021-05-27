@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "servo-metrics"
-version = "0.1.0"
+version = "0.2.0"
 description = "A servo connector that tracks metrics and exposes them in Prometheus format"
 authors = ["Blake Watters <blake@opsani.com>"]
 license = "Apache-2.0"
@@ -11,7 +11,7 @@ repository = "https://github.com/opsani/servo-metrics"
 [tool.poetry.dependencies]
 python = "^3.8"
 aioprometheus = "^20.0.1"
-servox = "^0.8.3"
+servox = "^0.10.2"
 
 [tool.poetry.dev-dependencies]
 pytest = "^6.2.4"
