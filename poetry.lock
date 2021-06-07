@@ -496,7 +496,7 @@ python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
 
 [[package]]
 name = "servox"
-version = "0.10.2"
+version = "0.10.3"
 description = "Opsani Servo: The Next Generation"
 category = "main"
 optional = false
@@ -658,7 +658,7 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "7546ddf34b5db13aaf2c8cd77bcba9ad93ae42b16f0d81482237bf4efaed8652"
+content-hash = "9f8ba7163763f125ebfb145f33d05668fbb509514923217d5d36199e70feb698"
 
 [metadata.files]
 aiohttp = [
@@ -969,8 +969,8 @@ semver = [
     {file = "semver-2.13.0.tar.gz", hash = "sha256:fa0fe2722ee1c3f57eac478820c3a5ae2f624af8264cbdf9000c980ff7f75e3f"},
 ]
 servox = [
-    {file = "servox-0.10.2-py3-none-any.whl", hash = "sha256:68c35f4aa181fcb1821c6985167574406f82de8957a36433759552b6192fa8b2"},
-    {file = "servox-0.10.2.tar.gz", hash = "sha256:7e09f289f5a22cc3fd8fd08001a694c5949f0b45e23f208f61ea05ac5e71ee52"},
+    {file = "servox-0.10.3-py3-none-any.whl", hash = "sha256:a781b41c392597534116ae78c7bcfa68fb4eedbf5f3fd0d2c1dbfeae844c744b"},
+    {file = "servox-0.10.3.tar.gz", hash = "sha256:54d9dbe55ee1b3b7cc4eed7ad4a3d23574ed2a41cc74fdd77e35f0bdc62c1741"},
 ]
 six = [
     {file = "six-1.16.0-py2.py3-none-any.whl", hash = "sha256:8abb2f1d86890a2dfb989f9a77cfcfd3e47c2a354b01111771326f8aa26e0254"},
