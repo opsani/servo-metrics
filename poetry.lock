@@ -19,7 +19,7 @@ speedups = ["aiodns", "brotlipy", "cchardet"]
 
 [[package]]
 name = "aioprometheus"
-version = "20.0.1"
+version = "20.0.2"
 description = "A Prometheus Python client library for asyncio-based applications"
 category = "main"
 optional = false
@@ -658,7 +658,7 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "7546ddf34b5db13aaf2c8cd77bcba9ad93ae42b16f0d81482237bf4efaed8652"
+content-hash = "7f2778a31050f9f75afdc10bdd4703b36b4a08bff0603bc30acd237394406a3a"
 
 [metadata.files]
 aiohttp = [
@@ -701,7 +701,7 @@ aiohttp = [
     {file = "aiohttp-3.7.4.post0.tar.gz", hash = "sha256:493d3299ebe5f5a7c66b9819eacdcfbbaaf1a8e84911ddffcdc48888497afecf"},
 ]
 aioprometheus = [
-    {file = "aioprometheus-20.0.1-py3-none-any.whl", hash = "sha256:1e513c9b0ed35c0192e851bcfc637ac6af74602059b82d9bec6f1a402b91d785"},
+    {file = "aioprometheus-20.0.2-py3-none-any.whl", hash = "sha256:c8d5dd2a771833a3e796b1d81bbdf4e97960fffaed4ae1f184d8b561354a4280"},
 ]
 async-timeout = [
     {file = "async-timeout-3.0.1.tar.gz", hash = "sha256:0c3c816a028d47f659d6ff5c745cb2acf1f966da1fe5c19c77a70282b25f4c5f"},
