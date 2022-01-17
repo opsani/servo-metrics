@@ -380,17 +380,18 @@ testing = ["argcomplete", "hypothesis (>=3.56)", "mock", "nose", "requests", "xm
 
 [[package]]
 name = "pytest-asyncio"
-version = "0.15.1"
-description = "Pytest support for asyncio."
+version = "0.17.1"
+description = "Pytest support for asyncio"
 category = "dev"
 optional = false
-python-versions = ">= 3.6"
+python-versions = ">=3.7"
 
 [package.dependencies]
-pytest = ">=5.4.0"
+pytest = ">=6.1.0"
+typing-extensions = ">=4.0"
 
 [package.extras]
-testing = ["coverage", "hypothesis (>=5.7.1)"]
+testing = ["coverage (==6.2)", "hypothesis (>=5.7.1)", "flaky (>=3.5.0)", "mypy (==0.931)"]
 
 [[package]]
 name = "python-dateutil"
@@ -600,11 +601,11 @@ doc = ["mkdocs (>=1.1.2,<2.0.0)", "mkdocs-material (>=5.4.0,<6.0.0)", "markdown-
 
 [[package]]
 name = "typing-extensions"
-version = "3.10.0.0"
-description = "Backported and Experimental Type Hints for Python 3.5+"
+version = "4.0.1"
+description = "Backported and Experimental Type Hints for Python 3.6+"
 category = "main"
 optional = false
-python-versions = "*"
+python-versions = ">=3.6"
 
 [[package]]
 name = "urllib3"
@@ -658,7 +659,7 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "7546ddf34b5db13aaf2c8cd77bcba9ad93ae42b16f0d81482237bf4efaed8652"
+content-hash = "aabef8b7851030d3a1b69de024ce5764599cb4efa54dc14c41d26770fe553b74"
 
 [metadata.files]
 aiohttp = [
@@ -903,8 +904,8 @@ pytest = [
     {file = "pytest-6.2.4.tar.gz", hash = "sha256:50bcad0a0b9c5a72c8e4e7c9855a3ad496ca6a881a3641b4260605450772c54b"},
 ]
 pytest-asyncio = [
-    {file = "pytest-asyncio-0.15.1.tar.gz", hash = "sha256:2564ceb9612bbd560d19ca4b41347b54e7835c2f792c504f698e05395ed63f6f"},
-    {file = "pytest_asyncio-0.15.1-py3-none-any.whl", hash = "sha256:3042bcdf1c5d978f6b74d96a151c4cfb9dcece65006198389ccd7e6c60eb1eea"},
+    {file = "pytest-asyncio-0.17.1.tar.gz", hash = "sha256:f97d63cbe7b7a9eec30d1e289688201bd8e91cd1a854f6be4937b0bc4d2dff61"},
+    {file = "pytest_asyncio-0.17.1-py3-none-any.whl", hash = "sha256:4b3f94b558a035edc5e14d66500ed9fbcc387ea7c3d561a0492006b9f938389e"},
 ]
 python-dateutil = [
     {file = "python-dateutil-2.8.1.tar.gz", hash = "sha256:73ebfe9dbf22e832286dafa60473e4cd239f8592f699aa5adaf10050e6e1823c"},
@@ -1000,9 +1001,8 @@ typer = [
     {file = "typer-0.3.2.tar.gz", hash = "sha256:5455d750122cff96745b0dec87368f56d023725a7ebc9d2e54dd23dc86816303"},
 ]
 typing-extensions = [
-    {file = "typing_extensions-3.10.0.0-py2-none-any.whl", hash = "sha256:0ac0f89795dd19de6b97debb0c6af1c70987fd80a2d62d1958f7e56fcc31b497"},
-    {file = "typing_extensions-3.10.0.0-py3-none-any.whl", hash = "sha256:779383f6086d90c99ae41cf0ff39aac8a7937a9283ce0a414e5dd782f4c94a84"},
-    {file = "typing_extensions-3.10.0.0.tar.gz", hash = "sha256:50b6f157849174217d0656f99dc82fe932884fb250826c18350e159ec6cdf342"},
+    {file = "typing_extensions-4.0.1-py3-none-any.whl", hash = "sha256:7f001e5ac290a0c0401508864c7ec868be4e701886d5b573a9528ed3973d9d3b"},
+    {file = "typing_extensions-4.0.1.tar.gz", hash = "sha256:4ca091dea149f945ec56afb48dae714f21e8692ef22a395223bcd328961b6a0e"},
 ]
 urllib3 = [
     {file = "urllib3-1.26.5-py2.py3-none-any.whl", hash = "sha256:753a0374df26658f99d826cfe40394a686d05985786d946fbe4165b5148f5a7c"},
